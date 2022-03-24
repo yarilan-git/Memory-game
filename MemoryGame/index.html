@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <form action="">
+      <label for="numOfCards">Enter an even number of cards, up to 100</label>
+      <input type="text" id="numOfCards">
+      <button id = "start">Start</button>
+      <div class="error"></div>
+    </form>
+    <div id="Scores">
+      <section>
+          Best Historic Score: <span id="bestHistoricScore"> </span>
+      </section>
+      <section>
+        Current Score: <span  id="currentScore"> </span>
+      </section>
+      <br>
+      
+    </div>
+    <div id="game">
+      <button class="restart">Restart</button>
+      <br>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
